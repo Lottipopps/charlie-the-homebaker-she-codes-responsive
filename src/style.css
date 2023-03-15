@@ -1,8 +1,43 @@
+:root {
+  --intense-frosting: rgb(246, 55, 143);
+  --bright-canary: 255, 221, 0;
+  --cream-pudding: rgb(245, 239, 232);
+  --summer-sky: rgb(142, 165, 235);
+}
 body {
-  background: red;
+  background: var(--cream-pudding);
   text-align: center;
 }
-h1 {
+.hero {
+  margin: 20px 0;
+  color: rgb(1, 1, 109);
+  background: rgba(var(--bright-canary), 0.45);
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+h1,
+h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 62px;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 45px;
+}
+h5 {
+  font-size: 30px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+a {
+  text-decoration: none;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: rgb(1, 1, 109);
+}
+.btn-sky {
+  background-color: var(--summer-sky);
 }
