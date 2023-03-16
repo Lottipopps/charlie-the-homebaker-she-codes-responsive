@@ -46,7 +46,7 @@ a:hover {
 p {
   text-align: justify;
   font-family: "Edu NSW ACT Foundation", cursive;
-  font-size: 25px;
+  font-size: 20px;
 }
 .btn-sky {
   background-color: var(--summer-sky);
@@ -57,4 +57,48 @@ p {
   border-radius: 10px;
   background-color: var(--summer-sky);
   opacity: 0.9;
+}
+.stories {
+  margin: 100px 20px;
+}
+.video {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+#french-day {
+  background: rgba(var(--bright-canary), 0.1);
+  border-radius: 4px;
+  padding: 10px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .cookies {
+    width: 100px;
+  }
+  h3,
+  h4,
+  h5 {
+    font-size: 20px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .mini-nav {
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .cakes {
+    width: 200px;
+  }
+  .video {
+    width: 200px;
+  }
 }
