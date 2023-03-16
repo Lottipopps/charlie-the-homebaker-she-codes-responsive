@@ -25,19 +25,36 @@ h1 {
 h2 {
   font-size: 45px;
 }
+h3,
+h4,
 h5 {
   font-size: 30px;
   font-family: "Edu NSW ACT Foundation", cursive;
+}
+h4 {
+  color: var(--intense-frosting);
 }
 a {
   text-decoration: none;
   font-family: "Edu NSW ACT Foundation", cursive;
   font-size: 25px;
-  color: rgb(255, 255, 255);
+  color: rgb(var(--bright-canary));
 }
 a:hover {
   color: rgb(1, 1, 109);
 }
+p {
+  text-align: justify;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 25px;
+}
 .btn-sky {
   background-color: var(--summer-sky);
+}
+.mini-nav {
+  padding: 20px 10px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background-color: var(--summer-sky);
+  opacity: 0.9;
 }
