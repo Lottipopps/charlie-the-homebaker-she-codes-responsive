@@ -15,6 +15,9 @@ body {
   border-radius: 10px;
   padding: 20px 40px;
 }
+.about-hero {
+  margin: 50px 0;
+}
 h1,
 h2 {
   font-family: "Dancing Script", cursive;
@@ -100,5 +103,8 @@ p {
   }
   .video {
     width: 200px;
+  }
+  #rainbow-charlie {
+    width: 150px;
   }
 }
