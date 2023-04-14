@@ -19,6 +19,11 @@ body {
   margin: 50px 0;
   color: rgb(1, 1, 109);
 }
+.work-hero {
+  margin: 20px 0;
+  padding: 100px;
+  color: rgb(1, 1, 109);
+}
 h1,
 h2 {
   font-family: "Dancing Script", cursive;
@@ -52,6 +57,10 @@ p {
   font-family: "Edu NSW ACT Foundation", cursive;
   font-size: 20px;
 }
+form {
+  font-size: 20px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
 .btn-sky {
   background-color: var(--summer-sky);
 }
@@ -68,10 +77,22 @@ p {
 .video {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
+.cake-container {
+  width: 60%;
+  color: rgb(var(--bright-canary));
+}
+.naughty {
+  margin: 20px 0;
+}
 #french-day {
   background: rgba(var(--bright-canary), 0.1);
   border-radius: 4px;
   padding: 10px;
+}
+#images-nsfw {
+  display: none;
+  width: 60%;
+  margin: 0 auto;
 }
 @media (max-width: 960px) {
   h1 {
@@ -114,5 +135,9 @@ p {
   }
   #pexels-london {
     height: 120px;
+  }
+  #images-nsfw img {
+    margin: 0 auto;
+    width: 180px;
   }
 }

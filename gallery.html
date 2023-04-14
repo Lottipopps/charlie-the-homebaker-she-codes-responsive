@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c89979e897.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Charlie - The Homebaker: Picture Gallery</title>
+</head>
+
+<body>
+    <div class="work-hero">
+        <h1>Image Gallery</h1>
+        <h3>Here are some lovely pictures of my bakes, enjoy!</h3>
+        <h4><i class="fa-solid fa-ice-cream"></i> <i class="fa-solid fa-cake-candles"></i> <i
+                class="fa-solid fa-cookie"> <i class="fa-solid fa-stroopwafel"></i></i></h4>
+    </div>
+    <div class="container cake-container">
+        <div id="cakeCarousel" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/florentine-cake.JPG" class="d-block w-100 rounded" alt="Florentine Carnival cake">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/apple-pie.jpg" class="d-block w-100 rounded" alt="Apple Pie">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/carrot-cake.JPG" class="d-block w-100 rounded" alt="Carrot Cake">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/unicorn-muffins.jpeg" class="d-block w-100 rounded" alt="Unicorn Muffins">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/vegan-cookies.jpeg" class="d-block w-100 rounded" alt="Vegan Chocolate Cookies">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/chocolate-strawberry-cakes.JPG" class="d-block w-100 rounded"
+                        alt="Chocolate Strawberry Cake">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/cassata.JPG" class="d-block w-100 rounded" alt="Cassata">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/fruit-tarts.JPG" class="d-block w-100 rounded" alt="Fruit Tarts">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/shit-ur-old.jpg" class="d-block w-100 rounded" alt="Shit Ur Old funny cake">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/love-bday-cake.JPG" class="d-block w-100 rounded" alt="Love Birthday Cake">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/pandoro.JPG" class="d-block w-100 rounded" alt="Pandoro Christmas bake">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/21-st-bday-cake.JPG" class="d-block w-100 rounded" alt="Orange and Yoghurt Cake">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#cakeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cakeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="naughty">
+        <form id="nsfw">
+            <label for="age-input" class="form-label">Enter your age to access NSFW bakes:</label>
+            <input type="number" id="age-input" min="0" max="120">
+            <button type="submit" class="btn btn-success">Enter</button>
+        </form>
+    </div>
+    <div>
+        <div class="card-group" id="images-nsfw">
+            <div class="card p-2">
+                <img src="/images/penis-cake.JPG" class="card-img-top img-fluid rounded" alt="Penis Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Penis cake</h5>
+                    <p class="card-text">No better activity to do with fellow uni bakers. This cake was filled with
+                        whipped cream which would conveniently *spurt out* whenever the cake was squeezed. 😂</p>
+                </div>
+            </div>
+            <div class="card p-2">
+                <img src="/images/penis-cookies.JPG" class="card-img-top img-fluid rounded" alt="Penis Cookies">
+                <div class="card-body">
+                    <h5 class="card-title">Penis cookies</h5>
+                    <p class="card-text">
+                        Brought these beauties with me to an 18+ dance party and everyone absolutely loved them. I would
+                        like to point out not only the enormous cookie in the middle but also the sad one with "blue
+                        balls" in the top center.
+                    </p>
+                </div>
+            </div>
+            <div class="card p-2">
+                <img src="/images/naked-woman-cakes.jpg" class="card-img-top img-fluid rounded" alt="Naked woman">
+                <div class="card-body">
+                    <h5 class="card-title">Naked woman for a womaniser</h5>
+                    <p class="card-text">A friend of ours changes girlfriend more often than he changes clothes. This
+                        cake was an over 12 hour job but boy was it worth it. After the candles were out, two friends
+                        made a collective and successfull effort to stuff the birthday boy's face in the strawberry-cake
+                        breast. He came out with a triumphant smile and a marzipan nipple in his mouth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/src/app.js"></script>
+</body>
+
+</html>
