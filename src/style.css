@@ -97,7 +97,7 @@ p {
     border-radius: 5px;
   }
   p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .cakes {
     width: 200px;
@@ -107,5 +107,12 @@ p {
   }
   #rainbow-charlie {
     width: 150px;
+  }
+  #pexels-pasta,
+  #pexels-squirrel {
+    width: 120px;
+  }
+  #pexels-london {
+    height: 120px;
   }
 }
