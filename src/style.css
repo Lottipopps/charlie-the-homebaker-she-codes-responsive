@@ -115,7 +115,7 @@ footer {
   padding: 20px;
   background: rgba(var(--bright-canary), 0.7);
   text-align: center;
-  font-size: 25px;
+  font-size: 50px;
   font-family: "Dancing Script", cursive;
   border-radius: 5px;
 }
@@ -205,6 +205,10 @@ footer a:hover {
   }
   p {
     font-size: 14px;
+  }
+  footer {
+    font-size: 20px;
+    margin: 10px 40px;
   }
   .cakes {
     width: 200px;
