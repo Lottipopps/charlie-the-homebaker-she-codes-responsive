@@ -111,11 +111,11 @@ nav .logo:hover {
 }
 footer {
   display: block;
-  margin: 10px 80px;
+  margin: 10px 80px 80px 80px;
   padding: 20px;
   background: rgba(var(--bright-canary), 0.7);
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Dancing Script", cursive;
   border-radius: 5px;
 }
@@ -208,7 +208,7 @@ footer a:hover {
   }
   footer {
     font-size: 20px;
-    margin: 10px 40px;
+    margin: 10px 40px 40px 40px;
   }
   .cakes {
     width: 200px;
