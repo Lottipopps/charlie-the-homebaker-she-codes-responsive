@@ -4,7 +4,7 @@ function showMenu(event) {
   hamburgerMenu.classList.toggle("active");
   navBar.classList.toggle("active");
 }
-function hidemenu(event) {
+function hideMenu(event) {
   let hamburgerMenu = document.querySelector(".hamburger-menu");
   let navBar = document.querySelector(".nav-bar");
   hamburgerMenu.classList.remove("active");
@@ -14,7 +14,7 @@ let hamburgerMenu = document.querySelector(".hamburger-menu");
 hamburgerMenu.addEventListener("click", showMenu);
 let navBar = document.querySelector(".nav-bar");
 let navbarLinks = document.querySelectorAll(".navbar-link");
-navbarElements.forEach((n) => n.addEventListener("click", hideMenu));
+navbarLinks.forEach((n) => n.addEventListener("click", hideMenu));
 
 function showCakes(event) {
   event.preventDefault();
