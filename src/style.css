@@ -117,7 +117,7 @@ footer {
   text-align: center;
   font-size: 40px;
   font-family: "Dancing Script", cursive;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 footer a {
   color: rgb(1, 1, 109);
@@ -126,6 +126,10 @@ footer a {
 }
 footer a:hover {
   color: var(--intense-frosting);
+}
+.thanks {
+  margin: 10px 30px;
+  text-align: center;
 }
 .hamburger-menu {
   display: none;
@@ -208,7 +212,10 @@ footer a:hover {
   }
   footer {
     font-size: 20px;
-    margin: 10px 40px 40px 40px;
+    margin: 20px 40px 40px 40px;
+  }
+  .thanks {
+    margin: 5px 15px;
   }
   .cakes {
     width: 200px;
