@@ -148,6 +148,9 @@ footer a:hover {
   margin: 5px auto;
   background-color: rgb(var(--bright-canary));
 }
+.Github {
+  font-size: 24px;
+}
 .btn-sky {
   background-color: var(--summer-sky);
 }
