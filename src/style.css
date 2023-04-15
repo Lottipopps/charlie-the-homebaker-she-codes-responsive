@@ -11,18 +11,18 @@ body {
   text-align: center;
 }
 .hero {
-  margin: 20px 0;
+  margin: 100px 0;
   color: rgb(1, 1, 109);
   background: rgba(var(--bright-canary), 0.45);
   border-radius: 10px;
   padding: 20px 40px;
 }
 .about-hero {
-  margin: 50px 0;
+  margin: 100px 0;
   color: rgb(1, 1, 109);
 }
 .work-hero {
-  margin: 20px 0;
+  margin: 100px 0;
   padding: 100px;
   color: rgb(1, 1, 109);
 }
@@ -69,6 +69,8 @@ iframe {
   margin: 10px 20px;
 }
 nav {
+  position: fixed;
+  margin: -100px 0;
   font-family: "Edu NSW ACT Foundation", cursive;
   font-size: 24px;
   padding: 15px 0;
@@ -169,7 +171,7 @@ footer a:hover {
   margin: 20px 0;
 }
 .contacts-container {
-  margin: 30px 0;
+  margin: 100px 0;
   padding: 30px 10px;
   color: rgb(1, 1, 109);
   background: var(--summer-sky);
