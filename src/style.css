@@ -109,6 +109,24 @@ nav .logo {
 nav .logo:hover {
   scale: 1.4;
 }
+footer {
+  display: block;
+  margin: 10px 80px;
+  padding: 20px;
+  background: rgba(var(--bright-canary), 0.7);
+  text-align: center;
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+  border-radius: 5px;
+}
+footer a {
+  color: rgb(1, 1, 109);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+footer a:hover {
+  color: var(--intense-frosting);
+}
 .hamburger-menu {
   display: none;
   border: solid 0.5px rgb(var(--bright-canary));
