@@ -21,26 +21,54 @@
 </head>
 
 <body>
-    <div class="contacts-container">
-        <div class="contacts-hero">
-            <h1>Contacts and Price List</h1>
-            <button class="btn btn-sky"><a href="/index.html">Homepage</a></button>
-        </div>
-        <div class="contacts">
-            <h6 class="mt-20 mb-3">Email me for quotes or information at:</h6>
-            <a href="mailto: charliethebaker68@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i>
-                charliethebaker68@gmail.com</a>
-            <h6 class="mt-20 mb-3">If you have a quick question, here's my facebook page!</h6>
-            <a href="https://www.facebook.com/profile.php?id=100091573493571" target="_blank" class="mb-10"><i
-                    class="fa-brands fa-facebook"></i>
-                Charlie - The Homebaker</a>
-            <h6 class="mt-10 mb-3">Here is the description of all services and my price list:</h6>
-            <a href="/files/Price-List CharlietheHomebaker.pdf" target="_blank" class="d-block d-md-none">Price List and
-                services</a>
-            <iframe src="/files/Price-List CharlietheHomebaker.pdf" type="application/pdf"
-                style="width: -webkit-fill-available" frameborder="0" class="d-none d-md-block rounded"></iframe>
+    <div class="nav-container">
+        <nav class="d-flex justify-content-between">
+            <img src="/images/CharlieLogo.png" alt="CharlieLogo" class="img-fluid logo">
+            <ul class="nav-bar">
+                <li class="nav-item">
+                    <a href="/" class="navbar-link">Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about.html" class="navbar-link">About me</a>
+                </li>
+                <li class="on nav-item">
+                    <a href="/contact.html" class="navbar-link">Contact me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/gallery.html" class="navbar-link">Gallery of sweeties</a>
+                </li>
+            </ul>
+            <div class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </div>
+    <div class="body">
+        <div class="contacts-container">
+            <div class="contacts-hero">
+                <h1>Contacts and Price List</h1>
+                <button class="btn btn-sky"><a href="/index.html">Homepage</a></button>
+            </div>
+            <div class="contacts">
+                <h6 class="mt-20 mb-3">Email me for quotes or information at:</h6>
+                <a href="mailto: charliethebaker68@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i>
+                    charliethebaker68@gmail.com</a>
+                <h6 class="mt-20 mb-3">If you have a quick question, here's my facebook page!</h6>
+                <a href="https://www.facebook.com/profile.php?id=100091573493571" target="_blank" class="mb-10"><i
+                        class="fa-brands fa-facebook"></i>
+                    Charlie - The Homebaker</a>
+                <h6 class="mt-10 mb-3">Here is the description of all services and my price list:</h6>
+                <a href="/files/Price-List CharlietheHomebaker.pdf" target="_blank" class="d-block d-md-none">Price List
+                    and
+                    services</a>
+                <iframe src="/files/Price-List CharlietheHomebaker.pdf" type="application/pdf"
+                    style="width: -webkit-fill-available" frameborder="0" class="d-none d-md-block rounded"></iframe>
+            </div>
         </div>
     </div>
+    <script src="/src/app.js"></script>
 </body>
 
 </html>
